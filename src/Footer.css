@@ -1,0 +1,112 @@
+.custom-footer {
+    background-color: #2C3C4D;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .custom-footer p {
+    margin: 0;
+  }
+
+  .footer {
+    background-color: #f8f9fa; 
+    padding: 10px;
+  }
+  
+  .footer-table {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 10px 28px; 
+    text-align: left; 
+    font-family: 'Nunito Sans', sans-serif;
+    
+  }
+  
+#space-logo{
+    padding-left: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: larger;
+    text-align: left;
+}
+
+.copyright{
+    padding-top: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+}
+
+.about-us{
+    padding-top: 50px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.space-about-us{
+    padding-top: 15px;
+}
+
+.space-tr{
+    padding-left: 50vh;
+}
+
+.footer-list {
+    list-style-type: none; 
+    padding: 10px 0px 0px 0px; 
+    margin: 0; 
+    text-align: left;
+}
+
+.footer-list li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.p-footer{
+    font-size: large;
+    font-weight: bold;
+}
+
+.tr-berita{
+    background-color: white;
+    border-radius: 25vh;
+    padding-top: 10px;
+}
+
+.subscription-form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: max-content;
+    padding-right: 3px;
+    margin-top:10px;
+}
+
+.email-input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}

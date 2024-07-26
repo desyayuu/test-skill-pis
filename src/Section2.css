@@ -1,0 +1,25 @@
+.section-title {
+  display: flex;
+    align-items: center;
+    border-left: 4px solid #007BFF; 
+    padding-left: 10px; 
+    margin-bottom: 20px; 
+}
+
+.section-title h2 {
+    margin: 0;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.section-container {
+    padding: 20px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}

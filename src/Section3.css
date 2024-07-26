@@ -1,0 +1,174 @@
+/* Section3.css */
+.section-container {
+    padding: 20px;
+}
+
+.section-title {
+display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.search-field {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-input-2 {
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.cards-container-3 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.card-3 {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+    width: calc(25% - 20px); 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image-3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-content-3 {
+    text-align: center;
+}
+
+.card-content-3 h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+
+.card-meta-3 {
+    display: flex;
+    align-items: bottom;
+    justify-content: left;
+    font-size: 0.9rem;
+    color: #666;
+    gap: auto;
+}
+
+.card-meta-3 .category {
+    margin-right: 4px;
+}
+
+.card-meta-3 .separator {
+    display: flex;
+    align-items: center;
+}
+
+.card-meta-3 .date {
+    margin-left: 4px;
+}
+
+#img-card-3{
+    width: 90%;
+    height: auto;
+    border-radius: 12px;
+    top: -18.6px;
+    left: -7.34px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #526071;
+}
+
+.pagination-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #526071;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #526071;
+}
+
+.pagination-controls button, .pagination-controls .dots {
+    border: none;
+    background-color: transparent;
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.pagination-controls button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pagination-controls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+}
+
+.pagination-controls .dots {
+    cursor: default;
+    font-family: 'Inter', sans-serif;
+}
+
+.paginate-button {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif; 
+}
+
+.paginate-text {
+    font-family: 'Inter', sans-serif;
+    color: #526071;
+    font-size: 14px;
+}
+
+
