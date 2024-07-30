@@ -1,3 +1,8 @@
+# Teknologi yang digunakan
+1. React.js
+2. Bootstrap
+3. Data yang ditampilkan merupakan data dari API yang sudah ditentukan
+
 # Tampilan Home
 ![Alt text](/read-me/home-section-1.png)
 ![Alt text](/read-me/home-section-2.png)
